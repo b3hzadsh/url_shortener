@@ -1,0 +1,30 @@
+[project]
+name = "my-url"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Behzad Shabanifard ",email = "b3hzadsh@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi (>=0.115.7,<0.116.0)",
+    "uvicorn[standart] (>=0.34.0,<0.35.0)",
+    "sqlalchemy (>=2.0.37,<3.0.0)",
+    "databases[aiosqlite] (>=0.9.0,<0.10.0)",
+    "python-dotenv (>=1.0.1,<2.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.9.3"
+black = "^24.10.0"
+isort = "^6.0.0"
+pytest = "^8.3.4"
+pytest-asyncio = "^0.25.2"
+pytest-mock = "^3.14.0"
+

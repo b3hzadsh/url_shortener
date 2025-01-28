@@ -1,0 +1,14 @@
+[
+  // { "f5" will run server ,
+  //   "key": "ctrl+alt+r",
+  //   "command": "workbench.action.tasks.runTask",
+  //   "args": "Run FastAPI Server",
+  //   "when": "editorTextFocus"
+  // },
+  // { "ctrl + : + a will run all test 
+  //   "key": "ctrl+alt+e",
+  //   "command": "workbench.action.tasks.runTask",
+  //   "args": "Run Python Test pytest",
+  //   "when": "editorTextFocus"
+  // }
+]

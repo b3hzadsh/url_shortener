@@ -1,0 +1,63 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    // {
+    //   "label": "Run FastAPI Server",
+    //   "type": "shell",
+    //   "command": "uvicorn main:app",
+    //   "args": [
+    //     "--reload"
+    //   ],
+    //   "problemMatcher": [],
+    //   "group": {
+    //     "kind": "build",
+    //     "isDefault": true
+    //   },
+    //   "detail": "Run the FastAPI server using uvicorn"
+    // },
+    {
+      "label": "Run Default Test",
+      "type": "shell",
+      "command": "pytest",
+      "args": [],
+      "problemMatcher": [],
+      "group": {
+        "kind": "test",
+        "isDefault": true
+      },
+      "detail": "Run the FastAPI test pytest"
+    },
+    {
+      // pip install -r requirements.txt
+      "label": "Get Python Requirements",
+      "type": "shell",
+      "command": "pip install",
+      "args": [
+        "-r",
+        "requirements.txt"
+      ],
+      "problemMatcher": [],
+      "group": {
+        "kind": "test",
+        "isDefault": true
+      },
+      "detail": "Run the FastAPI test pytest"
+    },
+    {
+      // pip install -r requirements.txt
+      "label": "Get Python Dev Requirements",
+      "type": "shell",
+      "command": "pip install",
+      "args": [
+        "-r",
+        "requirements-dev.txt"
+      ],
+      "problemMatcher": [],
+      "group": {
+        "kind": "test",
+        "isDefault": true
+      },
+      "detail": "Run the FastAPI test pytest"
+    }
+  ]
+}
