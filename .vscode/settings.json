@@ -5,12 +5,12 @@
     "tests" // Replace "tests" with the folder containing your tests
   ],
   "python.analysis.extraPaths": [
-    "./my_url"
+    "./url_shortener"
   ],
   // "python.pythonPath": "${workspaceFolder}/.venv/bin/python",
   "python.testing.unittestEnabled": false,
   "python.testing.pytestEnabled": true,
-  "terminal.integrated.cwd": "./my_url",
+  "terminal.integrated.cwd": "./url_shortener",
   "python.defaultInterpreterPath": ".venv/Scripts/python.exe"
   // "python.autoComplete.extraPaths": [
   //   "./src"
