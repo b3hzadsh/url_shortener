@@ -1,5 +1,8 @@
 from fastapi import APIRouter
-from models.url_model import Link, LinkIn
+
+from url_shortener.models.url_model import Link, LinkIn
+
+# from models.url_model import Link, LinkIn
 
 router = APIRouter()
 

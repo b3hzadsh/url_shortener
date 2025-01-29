@@ -7,7 +7,7 @@
         {
             "name": "Python Debugger: FastAPI",
             "type": "debugpy",
-            "cwd": "${workspaceFolder}/my_url",
+            "cwd": "${workspaceFolder}/url_shortener",
             "request": "launch",
             "module": "uvicorn",
             "args": [

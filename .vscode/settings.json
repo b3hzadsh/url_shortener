@@ -5,7 +5,7 @@
     "tests" // Replace "tests" with the folder containing your tests
   ],
   "python.analysis.extraPaths": [
-    "./url_shortener"
+    // "./url_shortener"
   ],
   // "python.pythonPath": "${workspaceFolder}/.venv/bin/python",
   "python.testing.unittestEnabled": false,
