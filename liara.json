@@ -1,0 +1,6 @@
+{
+    "args": [
+        "cd url_shortener",
+        "uvicorn main:app --port 8000"
+    ]
+}
