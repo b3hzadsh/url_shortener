@@ -20,12 +20,3 @@ jobs:
           npm i -g @liara/cli@7
           liara deploy --debug --app="news-api" --api-token="$LIARA_TOKEN" --no-app-logs
 
-      - uses: actions/setup-python@v5
-        with:
-          python-version: "3.12"
-                # Install dependencies
-      - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install -r requirements.txt
-          uvicorn url_shortener/main:app --reload 

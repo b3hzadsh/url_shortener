@@ -1,6 +1,5 @@
 {
     "args": [
-        "cd url_shortener",
-        "uvicorn main:app --port 8284"
+        "uvicorn url_shortener.main:app --port 8284"
     ]
 }
