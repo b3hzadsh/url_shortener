@@ -1,10 +1,11 @@
 [project]
-name = "my-url"
+name = "url-shortener"
 version = "0.1.0"
-description = "hey"
+description = "yoo"
 authors = [
     {name = "Behzad Shabanifard ",email = "b3hzadsh@gmail.com"}
 ]
+license = {text = "gpl"}
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
